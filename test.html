@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tab-labels {
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+
+.tab-content {
+    order: 1;
+    width: 100%;
+    display: none;
+}
+
+.tab_radio {
+    display: none;
+}
+
+.tab_radio:checked + .tab-labels {
+    border-bottom: 1px solid black;
+}
+
+.tab_radio:checked + .tab-labels + .tab-content {
+    display: initial;
+}
+
+</style>
+
+<body>
+    
+   <div class="tabs">
+    <input type="radio" class="tab_radio" name="tab1" id="tab1" checked>
+    <label for="tab1" class="tab-labels"> Tab 1 </label>
+    <div class="tab-content">
+        <p> Hello this is tab1 </p>
+    </div>
+    <input type="radio" class="tab_radio" name="tab1" id="tab2">
+    <label for="tab2" class="tab-labels"> Tab 1 </label>
+    <div class="tab-content">
+        <p> Hello this is tab2 </p>
+    </div>
+    <input type="radio" class="tab_radio" name="tab1" id="tab3">
+    <label for="tab3" class="tab-labels"> Tab 1 </label>
+    <div class="tab-content">
+        <p> Hello this is tab3 </p>
+    </div>
+   </div>
+    
+</body>
+</html>

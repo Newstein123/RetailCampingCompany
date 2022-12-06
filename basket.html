@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="review-body">
+   <header>
+    <nav>
+        <div class="navbar">
+          <div class="logo">
+              <img src="/images/logo.png" alt="">
+          </div>
+          <div class="location">
+              <small>Delivered To </small> <br> 
+              <span> <i class="fa-solid fa-location-dot"></i> Myanmar </span>
+          </div>
+          <div class="navsearch">
+                  <div class="search">
+                      <select name="" id="">
+                        <option value=""> All </option>
+                          <option value="1"> Tents </option>
+                          <option value="2"> Hiking Bags   </option>
+                          <option value="3">  Water Bottle   </option>
+                          <option value="4"> Army Knife </option>
+                          <option value="5"> Sleeping Bed </option>
+                      </select>
+                      <input type="search" name="" id="" placeholder="Search your products">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <select name="" id="lang">
+                      <option value="1"> American </option>
+                      <option value="2"> မြန်မာ </option>
+                      <option value="3"> 
+                        ประเทศไทย </option>
+                      <option value="4"> India </option>
+                      <option value="5" selected> UK </option>
+                      <option value="6"> Austalia  </option>
+                  </select>
+                  <a href="login.html"> <i class="fa-solid fa-user"></i> </a>
+                  <div class="basket">
+                    <a href="basket.html" id="basket"> 
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <p> 35000 MMK </p>   
+                  </div>
+                  <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+          </div>
+        </div>
+        <div class="navlink">
+              <ul>
+                  <li> <a href="index.html">Home</a> </li>
+                  <li> 
+                    <div class="camp-equip">
+                        <p>  Camping Equipments </p>    
+                         <div class="equip-list">
+                             <ul>
+                                 <li> <a href="/equipments/tents.html"> Tents</a> </li>
+                                 <li> <a href="/equipments/cookware.html"> CookWare </a></li>
+                                 <li> <a href="/equipments/bags.html"> Hiking Bags</a> </li>
+                                 <li> <a href="/equipments/equip.html"> Equipments </a></li>
+                             </ul>
+                         </div>
+                    </div>
+                </li>
+                  <li> <a href="furniture.html">Furniture</a></li>
+                  <li> <a href="reviews.html">Reviews</a> </li>
+                  <li><a href="o_and_p.html"> Offers and Packages</a> </li>
+              </ul>
+        </div>
+    </nav>
+   </header>
+   <div class="basket-container">
+        <div class="basketpage">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Products </th>
+                        <th> Quantity </th>
+                        <th> Price </th>
+                        <th> Subtotal </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td> 
+                           <div class="items">
+                            <img src="/images/products/equipments/recharagable LED Flashlight.jpg" alt="">
+                            <div class="item-text">
+                                <p> Rechargable LED Flashlight </p>
+                            </div>
+                           </div>
+                        </td>
+                        <td> 
+                            <div>
+                                <i class="fa-solid fa-minus"></i>
+                                <span> 1 </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </td>
+                        <td> 18000 MMK </td>
+                        <td> 18000 MMK </td>
+                        <td> <a href=""> Remove </a></td>
+                    </tr>
+                    <tr> 
+                        <td> 
+                           <div class="items">
+                            <img src="/images/products/cookware/Sea+to+Summit+X-Set+11+Cookset.jpg" alt="">
+                            <div class="item-text">
+                                <p> Sea to Summit+X-Set 11 Cookset</p>
+                            </div>
+                           </div>
+                        </td>
+                        <td> 
+                            <div>
+                                <i class="fa-solid fa-minus"></i>
+                                <span> 2 </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </td>
+                        <td> 30000 MMK </td>
+                        <td> 60000 MMK </td>
+                        <td> <a href=""> Remove </a></td>
+                    </tr>
+                    <tr> 
+                        <td> 
+                           <div class="items">
+                            <img src="/images/products/tents/Adventure Tent.jpg" alt="">
+                            <div class="item-text">
+                                <p> Adventure Tent </p>
+                            </div>
+                           </div>
+                        </td>
+                        <td> 
+                            <div>
+                                <i class="fa-solid fa-minus"></i>
+                                <span> 1 </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </td>
+                        <td> 54000 MMK </td>
+                        <td> 54000 MMK </td>
+                        <td> <a href=""> Remove </a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td> <b>Subtotal</b></td>
+                        <td>  132000 MMK</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td> <b>Tax</b> </td>
+                        <td>  1000 MMK</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td> <b>Total Cost</b> </td>
+                        <td>  133000 MMK </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="2"> 
+                            <button> Proceed To Check Out </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+   </div>
+   <footer>  
+    <div class="footer-items">
+        <div>
+            <h3> Shop </h3>
+            <ul>
+                <li>Tents </li>
+                <li> Hiking Bags </li>
+                <li> Army Knife </li>
+                <li> Water Bootle </li>
+                <li> Equipments </li>
+            </ul>
+        </div>
+        <div>  
+            <h3> Help Center </h3> 
+            <ul>
+                <li> FAQ </li>
+                <li> Contact Us </li>
+            </ul>   
+        </div>
+        <div> 
+            <h3> About </h3>
+            <ul>
+                <li> Our products </li>
+                <li> Our Service  </li>
+            </ul> 
+        </div>  
+        <div>
+           <p> Sign up to get 10% of your first order.</p>
+           <div class="subscribe ">
+                <input type="text"> 
+                <button> Subscribe </button>
+           </div>
+           <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+         </div>
+    </div>
+    <div class="copyright">
+        <p> 2022 Let'sCamp, All Right Served </p>
+    </div>
+</footer>
+<script>
+// toggle 
+let menutoggle = document.querySelector('.toggle');
+menutoggle.onclick = function() {
+menutoggle.classList.toggle('active')
+document.querySelector(".navlink").classList.toggle("active");
+}
+</script>
+</body>
+</html>
